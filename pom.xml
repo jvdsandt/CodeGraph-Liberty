@@ -13,7 +13,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jooq.version>3.18.4</jooq.version>
+        <jooq.version>3.19.15</jooq.version>
     </properties>
 
     <dependencies>
@@ -48,7 +48,7 @@
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
-            <version>5.9.3</version>
+            <version>5.11.3</version>
             <scope>test</scope>
         </dependency>
 
@@ -66,7 +66,7 @@
                 <plugin>
                     <groupId>io.openliberty.tools</groupId>
                     <artifactId>liberty-maven-plugin</artifactId>
-                    <version>3.8</version>
+                    <version>3.11.1</version>
                     <configuration>
                         <copyDependencies>
                             <dependencyGroup>
@@ -74,7 +74,7 @@
                                 <dependency>
                                     <groupId>org.postgresql</groupId>
                                     <artifactId>postgresql</artifactId>
-                                    <version>42.6.0</version>
+                                    <version>42.7.4</version>
                                 </dependency>
                             </dependencyGroup>
                         </copyDependencies>

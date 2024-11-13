@@ -15,7 +15,7 @@
 
     <dataSource id="DefaultDataSource" jndiName="jdbc/myDb">
         <jdbcDriver libraryRef="jdbcLib"/>
-        <properties.postgresql serverName="theraver6" portNumber="5432"
+        <properties.postgresql serverName="localhost" portNumber="5432"
                                databaseName="postgres"
                                user="mvnscan_dev"
                                password="mvnscan_dev" />
